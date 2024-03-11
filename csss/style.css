@@ -1,0 +1,106 @@
+body{
+    margin: 12px;
+    padding:22px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('viduimage.jpg');
+    background-attachment: fixed;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    width: 100%;
+    
+
+    
+    
+}
+
+
+.nav-list{
+    display: flex;
+    
+}
+.nav-list li {
+    padding: 44px;
+    font-size: large;
+
+
+
+}
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+   
+
+}
+.nav-list li a:hover{
+    color: blue;
+}
+pre {
+    font-size: x-large;
+    color: white;
+    
+}
+.background{
+    background:rgba(0,0,0, 0.7)url('../vidhu image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.background img{
+    width: 100%;
+    
+
+}
+
+.text{
+    color:white;  
+}
+
+#search{
+
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 12px;
+
+    
+}
+.rightnav{
+    align-items: right;
+     
+
+   }
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+         
+    }
+.line{
+
+width: 33px;
+background-color:white;
+height: 4px;
+margin: 5px;
+
+}
+
+html,body{
+
+    width:100%;
+    
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    align-items: center;
+    
+}
